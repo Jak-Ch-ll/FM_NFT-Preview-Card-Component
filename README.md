@@ -30,8 +30,10 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [TBA](https://your-solution-url.com)
-- Live Site URL: [TBA](https://your-live-site-url.com)
+- [Live Site URL on Netlify](https://fm-nft.netlify.app/)
+- [Sourcecode on Github](https://github.com/Jak-Ch-ll/FM_NFT-Preview-Card-Component)
+- [Solution on Frontend Mentor](https://www.frontendmentor.io/solutions/nft-card-with-modern-css-and-bem-methodolgy-vE3c7FmZB)
+
 
 ## My process
 
@@ -45,8 +47,6 @@ Users should be able to:
 ### What I learned
 
 At first, I put the clock and Etherium icons in the markup, which created a mess of CSS classes. I even experimented with separating the meta-information bar into a separate component from a BEM standpoint. When working on the hover effect with the eye icon, I immediately decided to put it in a pseudo-element because it has no real semantic meaning. While taking a break, I realised that this might be the better approach for the other icons, too.
-
-Please let me know if you know of any downsides with loading icons via CSS compared to HTML.
 
 ## Author
 
