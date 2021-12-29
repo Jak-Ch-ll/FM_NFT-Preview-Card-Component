@@ -23,20 +23,21 @@ body {
   font-size: var(--fz-body);
   color: var(--clr-primary-soft);
   font-weight: 300;
+
+  position: relative;
 }
 
 .container {
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  min-height: 100vh;
 }
 
 .preview-card {
   --border-radius: 1rem;
 
-  margin-top: auto;
   max-width: min(75%, 20rem);
   padding: 1.5rem;
   border-radius: var(--border-radius);
@@ -85,11 +86,14 @@ body {
 
 .preview-card__title {
   font-size: 1.5rem;
+}
+
+.preview-card__title__link {
   color: var(--clr-white);
   text-decoration: none;
 }
 
-.preview-card__title:hover {
+.preview-card__title__link:hover {
   color: var(--clr-primary-cyan);
 }
 
@@ -150,8 +154,9 @@ body {
 }
 
 .attribution {
-  margin-top: auto;
-  margin-bottom: 1rem;
+  position: absolute;
+  bottom: 0.5rem;
+  width: 100%;
 
   color: var(--clr-white);
   font-size: 0.75rem;
@@ -159,5 +164,5 @@ body {
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: hsl(228, 45%, 55%);
 }
